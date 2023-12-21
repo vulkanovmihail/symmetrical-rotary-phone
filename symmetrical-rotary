@@ -1,0 +1,9 @@
+            Text("Number")
+                .alignmentGuide(.leading) { _ in 30 }
+                .overlay {
+                    Text("Number")
+    
+    let passThroughPublisher2 = PassthroughSubject<Int?, Error>()
+    let passThroughPublisher3 = PassthroughSubject<Int?, Error>()
+    let boolThroughPublisher = PassthroughSubject<Bool, Error>()
+    
